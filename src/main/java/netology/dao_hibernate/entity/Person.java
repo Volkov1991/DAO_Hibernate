@@ -1,4 +1,4 @@
-package netology.dao_hibernate;
+package netology.dao_hibernate.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
