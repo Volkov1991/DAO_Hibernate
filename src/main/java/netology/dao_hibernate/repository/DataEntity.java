@@ -1,8 +1,8 @@
 package netology.dao_hibernate.repository;
 
-import jakarta.persistence.EntityManager;
-import jakarta.persistence.PersistenceContext;
-import jakarta.transaction.Transactional;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+import javax.transaction.Transactional;
 import netology.dao_hibernate.entity.Person;
 import netology.dao_hibernate.entity.PersonID;
 import org.springframework.boot.CommandLineRunner;

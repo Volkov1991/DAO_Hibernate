@@ -1,12 +1,14 @@
 package netology.dao_hibernate.repository;
 
-import jakarta.persistence.EntityManager;
-import jakarta.persistence.PersistenceContext;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
 import lombok.AllArgsConstructor;
 import netology.dao_hibernate.entity.Person;
 import netology.dao_hibernate.entity.PersonID;
 import org.springframework.data.jpa.repository.JpaRepository;
+
 import java.util.List;
+
 import java.util.Optional;
 
 @org.springframework.stereotype.Repository
